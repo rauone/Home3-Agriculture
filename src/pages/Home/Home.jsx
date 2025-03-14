@@ -1,5 +1,13 @@
-const Home = () => {
-  return <h1 className="text-center text-2xl p-4">Home Page</h1>;
-};
+import Header from "./Header.jsx";
+import Description from "./Description.jsx";
+
+function Home() {
+  return (
+    <>
+      <Header />
+      <Description />
+    </>
+  );
+}
 
 export default Home;
