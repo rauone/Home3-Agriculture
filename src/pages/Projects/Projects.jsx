@@ -1,12 +1,12 @@
 
 const Projects = () => {
   const items = [
-    { title: "Easy Harvesting", image: "/public/images/Projects/Projects-Easy1.png" },
-    { title: "Agriculture Farming", image: "/public/images/Projects/Projects-Agriculture2.png" },
-    { title: "Ecological Farming", image: "/public/images/Projects/Projects-Ecological3.png" },
-    { title: "Organic Solutions", image: "/public/images/Projects/Projects-Organic4.png" },
-    { title: "Fresh Products", image: "/public/images/Projects/Projects-Fresh5.png" },
-    { title: "Healthy Food", image: "/public/images/Projects/Projects-Healthy 6.png" },
+    { title: "Easy Harvesting", image: "/images/Projects/Projects-Easy1.png" },
+    { title: "Agriculture Farming", image: "/images/Projects/Projects-Agriculture2.png" },
+    { title: "Ecological Farming", image: "/images/Projects/Projects-Ecological3.png" },
+    { title: "Organic Solutions", image: "/images/Projects/Projects-Organic4.png" },
+    { title: "Fresh Products", image: "/images/Projects/Projects-Fresh5.png" },
+    { title: "Healthy Food", image: "/images/Projects/Projects-Healthy 6.png" },
   ];
 
   return (
