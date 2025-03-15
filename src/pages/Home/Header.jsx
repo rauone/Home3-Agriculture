@@ -5,7 +5,7 @@ const Header = () => {
     <div className="max-h-screen">
       <div>
         <img
-          src="src/assets/img/div.bg-wrap.svg"
+          src="/src/assets/img/div.bg-wrap.svg"
           alt="Background"
           className=""
         />
