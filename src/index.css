@@ -1,1 +1,67 @@
 @import "tailwindcss";
+
+:root {
+  --font-Manrope: "Medium", sans-serif;
+  --font-Manrope2: "ExtraBold", serif;
+  --font-Manrope3: "SemiBold", serif;
+  --font-Manrope4: "Bold", sans-serif;
+  --font-Covored: "Regular", serif;
+}
+
+@font-face {
+  font-family: var(--font-Manrope);
+  src: url("/assets/fonts/manrope-5.woff2") format(woff2);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: var(--font-Manrope2);
+  src: url("public/assets/fonts/manrope-extrabold.ttf") format(truetype);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: var(--font-Manrope3);
+  src: url("public/assets/fonts/manrope-semibold.ttf") format(truetype);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: var(--font-Manrope4);
+  src: url("public/assets/fonts/ofont.ru_Manrope.ttf") format(truetype);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: var(--font-Covored);
+  src: url("public/assets/fonts/Covered_By_Your_Grace/CoveredByYourGrace-Regular.ttf")
+    format(truetype);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@layer base {
+  .font-Manrope {
+    font-family: var(--font-Manrope);
+  }
+
+  .font-Manrope2 {
+    font-family: var(--font-Manrope2);
+  }
+
+  .font-Manrope3 {
+    font-family: var(--font-Manrope3);
+  }
+
+  .font-Manrope4 {
+    font-family: var(--font-Manrope4);
+  }
+
+  .font-Covored {
+    font-family: var(--font-Covored);
+  }
+}
