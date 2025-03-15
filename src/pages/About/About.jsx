@@ -1,19 +1,21 @@
 const About = () => {
   return (
     <section className="bg-white">
-      <div className="relative h-72 bg-cover bg-center flex items-center justify-center bg-[url('/images/bg-photo.png')]">
-        <h1 className="relative z-10 text-white text-4xl font-bold">About</h1>
+      <div className="relative h-72 bg-cover bg-center flex flex-col items-center justify-center w-full bg-[url('/images/bg-photo.png')]">
+        <h1 className="text-white font-Manrope3">HOME / ABOUT</h1>
+        <p className="text-5xl text-white font-Manrope2 mt-2">About</p>
       </div>
+
 
       {/* Основной контент */}
       <div className="container mx-auto px-6 py-20 grid md:grid-cols-2 gap-12">
         {/* Блок с изображениями (СЛЕВА) */}
         <div className="relative">
-          <img src="/images/3photos.png" alt="Agriculture" />
+          <img src="/images/About-3photos.png" alt="Agriculture" />
         </div>
 
         {/* Текстовый блок (СПРАВА) */}
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col items-start justify-center">
           <span className="text-yellow-600 uppercase font-semibold tracking-wide">
             Get To Know Us
           </span>
@@ -38,9 +40,9 @@ const About = () => {
               on the trend to repeat
             </li>
           </ul>
-          <button className="mt-6 px-6 py-3 bg-green-600 text-white text-lg font-medium rounded-lg hover:bg-green-700 transition">
-            Discover More
-          </button>
+          <button className="mt-6 ml-0 bg-green-500 text-white py-3 px-8 rounded-lg text-lg font-semibold hover:bg-green-600 transition duration-300">
+          Discover More
+        </button>
         </div>
       </div>
 
@@ -53,10 +55,7 @@ const About = () => {
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center gap-4">
           {/* Кнопка */}
-          <button className="bg-white p-5 rounded-full shadow-lg hover:scale-110 transition">
-            ▶️
-          </button>
-
+          <img src="/images/About-video-icon.png" className="bg-white p-5 rounded-full shadow-lg hover:scale-110 transition" />
           {/* Текст */}
           <h3 className="text-2xl font-bold max-w-[80%]">
             ECO-Friendly Products can be Made from Scratch
@@ -157,9 +156,9 @@ const About = () => {
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {[
-            { name: "Kevin Smith", image: "/images/farmer1.jpg" },
-            { name: "Jessica Brown", image: "/images/farmer2.jpg" },
-            { name: "David Martin", image: "/images/farmer3.jpg" },
+            { name: "Kevin Smith", image: "/images/About-farmer1.png" },
+            { name: "Jessica Brown", image: "/images/About-farmer2.png" },
+            { name: "David Martin", image: "/images/About-farmer3.png" },
           ].map((farmer, index) => (
             <div key={index} className="relative">
               <img
@@ -167,9 +166,9 @@ const About = () => {
                 alt={farmer.name}
                 className="w-full h-80 object-cover rounded-lg shadow-lg"
               />
-              <div className="absolute bottom-4 left-4 bg-white p-3 rounded-lg shadow-md flex items-center">
+              <div className="absolute bottom-4 right-4 bg-white p-3 rounded-lg shadow-md flex items-center">
                 <img
-                  src="/images/icon-share.png"
+                  src="/images/About-icon.png"
                   alt="Share"
                   className="w-6 h-6 mr-2"
                 />

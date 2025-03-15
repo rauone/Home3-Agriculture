@@ -11,9 +11,10 @@ const Projects = () => {
 
   return (
     <>
-    <div className="relative h-72 bg-cover bg-center flex items-center justify-center bg-[url('/images/bg-photo.png')]">
-      <h1 className="relative z-10 text-white text-4xl font-bold">Projects</h1>
-    </div>
+      <div className="relative h-72 bg-cover bg-center flex flex-col items-center justify-center w-full bg-[url('/images/bg-photo.png')]">
+        <h1 className="text-white font-Manrope3">HOME / PROJECTS</h1>
+        <p className="text-5xl text-white font-Manrope2 mt-2">Projects</p>
+      </div>
     <section className="w-[1170px] mx-auto py-20">
       <div className="grid grid-cols-3 gap-6">
         {items.map((item, index) => (
@@ -27,7 +28,6 @@ const Projects = () => {
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-opacity-40 flex items-end p-4">
-              <h3 className="text-white text-lg font-semibold">{item.title}</h3>
             </div>
           </div>
         ))}

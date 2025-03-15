@@ -2,10 +2,11 @@ import React from "react";
 
 const Services = () => {
   return (
-    <section className="bg-[#FAF8F6]">
-        <div className="relative h-72 bg-cover bg-center flex items-center justify-center bg-[url('/images/bg-photo.png')]">
-            <h1 className="relative z-10 text-white text-4xl font-bold">Services</h1>
-        </div>
+    <section className="bg-[#FAF8F6] ">
+      <div className="relative h-72 bg-cover bg-center flex flex-col items-center justify-center w-full bg-[url('/images/bg-photo.png')]">
+        <h1 className="text-white font-Manrope3">HOME / SERVICES</h1>
+        <p className="text-5xl text-white font-Manrope2 mt-2">Services</p>
+      </div>
       <div className="container mx-auto px-6 grid md:grid-cols-3 gap-12 py-20">
         {/* Левый сайдбар */}
         <aside>
@@ -40,14 +41,23 @@ const Services = () => {
           {/* Заголовок и описание */}
           <h2 className="text-3xl font-bold text-gray-900 mt-6">Agriculture Products</h2>
           <p className="text-gray-700 mt-4 leading-relaxed">
-            Lorem ipsum is simply the best text used by copywriting professionals.
+          Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia
+quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis
+enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the
+printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since
+the 1500s.
           </p>
+          <p className="text-gray-700 mt-4 leading-relaxed">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia
+quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis
+enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the
+printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since
+the 1500s.</p>
 
           {/* Блок "Our Benefits" */}
           <div className="grid md:grid-cols-2 gap-6 mt-8">
             <div className="flex bg-white p-4 rounded-lg shadow-md items-center">
               <div className="w-24 h-24 bg-gray-300 rounded-lg flex items-center justify-center">
-                <span className="text-gray-500">?</span>
+                <img src="/images/Service-2photos.png" alt="2photos" />
               </div>
               <div className="ml-4">
                 <h4 className="text-lg font-bold text-gray-900">Our Benefits</h4>
@@ -56,7 +66,7 @@ const Services = () => {
             </div>
             <div className="flex bg-white p-4 rounded-lg shadow-md items-center">
               <div className="w-24 h-24 bg-gray-300 rounded-lg flex items-center justify-center">
-                <span className="text-gray-500">?</span>
+                <img src="/images/Service-3photos.png" alt="3photos" />
               </div>
               <div className="ml-4">
                 <h4 className="text-lg font-bold text-gray-900">Organic Farming</h4>

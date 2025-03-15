@@ -2,14 +2,15 @@ import React from 'react';
 
 const News = () => {
   return (
-    <div className="flex flex-col items-center p-4">
+    <div className="flex flex-col items-center">
       {/* Заголовок с изображением */}
-      <div className="mb-4 w-full lg:h-40 lg:w-500">
-        <img src='/newsphoto/Newspaper.svg' alt="News" className='w-full h-auto' />
+      <div className="relative h-72 bg-cover bg-center flex flex-col items-center justify-center w-full bg-[url('/images/bg-photo.png')]">
+        <h1 className="text-white font-Manrope3">HOME / NEWS</h1>
+        <p className="text-5xl text-white font-Manrope2 mt-2">News</p>
       </div>
 
       {/* Сетка с картинками */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-4xl mt-75">
+      <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-4xl mt-75">
         <div className="flex-row">
           <img src='/newsphoto/1.svg' alt="News 1" className='w-full h-auto max-w-xs rounded-xl -z-5'/>
           <div className='relative'>
