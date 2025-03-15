@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div className="text-center w-full">
-      <img src="src/assets/img/title.svg" />
+      <img src="/assets/img/title.svg" />
       <h1 className="-mt-40 text-white font-Manrope3">HOME / CONTACT</h1>
       <p className="text-5xl text-white font-Manrope2">Contact</p>
       <div className="mt-40 text-start items-center">
@@ -41,7 +41,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="mt-20 w-100 ml-40">
-        <img src="src/assets/img/Iframe - London Eye, London, United Kingdom.svg" />
+        <img src="/assets/img/Iframe - London Eye, London, United Kingdom.svg" />
       </div>
       <div className="text-center -mt-120">
         <h1 className="font-Covored text-[#EEC044]  text-2xl">Contact US</h1>

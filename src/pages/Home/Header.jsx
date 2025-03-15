@@ -5,7 +5,7 @@ const Header = () => {
     <div className="max-h-screen">
       <div>
         <img
-          src="/src/assets/img/div.bg-wrap.svg"
+          src="/assets/img/div.bg-wrap.svg"
           alt="Background"
           className=""
         />
@@ -30,7 +30,7 @@ const Header = () => {
         </div>
       </div>
       <div className="bg-white p-6 pl-50 rounded-lg shadow-md max-w-220 mx-full h-30 mt-58 ml-80">
-        <img src="src/assets/icons/__before.svg" className="w-15 mt-5 -ml-15" />
+        <img src="/assets/icons/__before.svg" className="w-15 mt-5 -ml-15" />
         <h2 className="text-gray-800 text-[18px] font-Manrope2 -mt-12 ml-5">
           Return Policy
         </h2>
@@ -39,7 +39,7 @@ const Header = () => {
         </p>
         <div className="border-l border-gray-300 h-8 -mt-9 ml-40"></div>
         <img
-          src="src/assets/icons/__before (1).svg"
+          src="/assets/icons/__before (1).svg"
           className="w-15 -mt-11 ml-45"
         />
         <h2 className="text-xl text-gray-800 text-[18px] font-Manrope2 -mt-13 ml-62">
@@ -50,7 +50,7 @@ const Header = () => {
         </p>
         <div className="border-l border-gray-300 h-8 -mt-10 ml-100"></div>
         <img
-          src="src/assets/icons/Icon (2).svg"
+          src="/assets/icons/Icon (2).svg"
           className="w-15 -mt-13 ml-108"
         />
         <h2 className="text-xl text-gray-800 text-[18px] font-Manrope2 -mt-12 ml-128">
@@ -67,7 +67,7 @@ const Header = () => {
         <p className="text-center text-4xl font-Manrope2">Latest Products</p>
       </div>
       <div className="grid grid-cols-3 gap-6 mt-10 px-10">
-        <img src="src/assets/img/section 34.svg" className="w-70 ml-65" />
+        <img src="/assets/img/section 34.svg" className="w-70 ml-65" />
         <p className="font-Manrope2 pt-72 -ml-35">
           Onions <br />
           <span className="text-green-500">
@@ -75,7 +75,7 @@ const Header = () => {
             <p className="text-yellow-500">SSSSS</p>
           </span>
         </p>
-        <img src="src/assets/img/section 38.svg" className="w-70 -ml-120" />
+        <img src="/assets/img/section 38.svg" className="w-70 -ml-120" />
         <p className="font-Manrope2 ml-180 -mt-24">
           Carrot <br />
           <span className="text-green-500">
@@ -84,7 +84,7 @@ const Header = () => {
           </span>
         </p>
         <img
-          src="src/assets/img/section 42.svg"
+          src="/assets/img/section 42.svg"
           className="w-70 ml-90 -mt-96"
         />
         <p className="font-Manrope2 -ml-15 -mt-23.5">
@@ -96,7 +96,7 @@ const Header = () => {
         </p>
       </div>
       <div className="grid grid-cols-3 gap-6 mt-10 px-10">
-        <img src="src/assets/img/section 46.svg" className="w-70 ml-66" />
+        <img src="/assets/img/section 46.svg" className="w-70 ml-66" />
         <p className="font-Manrope2 pt-72 -ml-35">
           Red Grapes <br />
           <span className="text-green-500">
@@ -104,7 +104,7 @@ const Header = () => {
             <p className="text-yellow-500">SSSSS</p>
           </span>
         </p>
-        <img src="src/assets/img/section 50.svg" className="w-70 -ml-120" />
+        <img src="/assets/img/section 50.svg" className="w-70 -ml-120" />
         <p className="font-Manrope2 ml-180 -mt-24">
           Garlic <br />
           <span className="text-green-500">
@@ -113,7 +113,7 @@ const Header = () => {
           </span>
         </p>
         <img
-          src="src/assets/img/section 54.svg"
+          src="/assets/img/section 54.svg"
           className="w-70 ml-90 -mt-96"
         />
         <p className="font-Manrope2 -ml-15 -mt-23.5">
@@ -125,7 +125,7 @@ const Header = () => {
         </p>
       </div>
       <div className="mt-10.5 ml-75 w-105 h-10">
-        <img src="src/assets/img/div.elementor-widget-wrap.svg" />
+        <img src="/assets/img/div.elementor-widget-wrap.svg" />
         <p className="font-Manrope text-[10px] -mt-45 ml-10 text-white">
           100% ORGANIC
         </p>
@@ -138,7 +138,7 @@ const Header = () => {
         </button>
       </div>
       <div className="-mt-10 ml-198 w-105 h-10">
-        <img src="src/assets/img/div.elementor-widget-wrap (1).svg" />
+        <img src="/assets/img/div.elementor-widget-wrap (1).svg" />
         <p className="font-Manrope text-[10px] -mt-45 ml-10 text-white">
           100% ORGANIC
         </p>

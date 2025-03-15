@@ -3,7 +3,7 @@ import React from "react";
 const Description = () => {
   return (
     <div className="mt-315 text-center">
-      <img src="src/assets/img/section 03.svg" />
+      <img src="/assets/img/section 03.svg" />
       <h1 className="-mt-80 text-6xl text-white font-Manrope2">
         Be Healthy & Eat Only Fresh <br />
         Organic Vagetables
@@ -18,19 +18,19 @@ const Description = () => {
           </h1>
           <p className="font-Manrope2 text-4xl text-black">Today's Hot Deal</p>
           <img
-            src="src/assets/img/section 08.svg"
+            src="/assets/img/section 08.svg"
             className="w-52 ml-75 mt-10"
           />
           <img
-            src="src/assets/img/section 34.svg"
+            src="/assets/img/section 34.svg"
             className="w-50 h-53 ml-135 -mt-52"
           />
           <img
-            src="src/assets/img/section 16.svg"
+            src="/assets/img/section 16.svg"
             className="ml-192 w-54 -mt-53"
           />
           <img
-            src="src/assets/img/section 20.svg"
+            src="/assets/img/section 20.svg"
             className="w-52 h-55 ml-252 -mt-54"
           />
           <h1 className="-ml-250 font-Manrope2">Lettuce</h1>
@@ -49,7 +49,7 @@ const Description = () => {
         <div className="items-center mt-80">
           <div className="ml-40">
             <img
-              src="src/assets/img/div.elementor-column.svg"
+              src="/assets/img/div.elementor-column.svg"
               className="w-145 ml-5"
             />
             <h1 className="text-3xl text-yellow-500 font-Covored -mt-127 ml-40">
@@ -69,14 +69,14 @@ const Description = () => {
               </span>
               <span className="mr-22">random word</span>
             </div>
-            <img src="src/assets/icons/Icon (3).svg" className="ml-185 mt-10" />
+            <img src="/assets/icons/Icon (3).svg" className="ml-185 mt-10" />
             <h1 className="font-Manrope2 -mt-15 ml-110 text-2xl">
               Professional Farmers
             </h1>
             <span className="ml-152 text-gray-500">
               There are many variation of passages of lorem ipsum.
             </span>
-            <img src="src/assets/icons/Icon (4).svg" className="ml-185 mt-15" />
+            <img src="/assets/icons/Icon (4).svg" className="ml-185 mt-15" />
             <h1 className="font-Manrope2 -mt-15 ml-110 text-2xl">
               Solution for Farming
             </h1>
@@ -105,7 +105,7 @@ const Description = () => {
             </h1>
             <p className="text-4xl font-Manrope2">What They Say</p>
             <img
-              src="src/assets/img/div.flickity-viewport.svg"
+              src="/assets/img/div.flickity-viewport.svg"
               className="mt-10 ml-40"
             />
           </div>
@@ -114,8 +114,8 @@ const Description = () => {
               From the Blog
             </h1>
             <p className="text-4xl font-Manrope2">News & Articles</p>
-            <img src="src/assets/img/section 60.svg" className="mt-20 ml-60" />
-            <img src="src/assets/img/section 28.svg" className="mt-20" />
+            <img src="/assets/img/section 60.svg" className="mt-20 ml-60" />
+            <img src="/assets/img/section 28.svg" className="mt-20" />
           </div>
         </div>
       </div>

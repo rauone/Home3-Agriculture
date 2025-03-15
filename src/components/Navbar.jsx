@@ -5,12 +5,12 @@ const Navbar = () => {
     <div className="container">
       {/* Top bar with contact and social links */}
       <div className="w-415 h-10 bg-green-500 pl-100 pt-3">
-        <img src="src/assets/icons/Icon.svg" alt="Location Icon" />
+        <img src="/assets/icons/Icon.svg" alt="Location Icon" />
         <p className="w-75 h-29 -mt-4 ml-5 text-white font-Manrope">
           88 Road Brooklyn Golden Street. New York
         </p>
         <img
-          src="src/assets/icons/Icon 1.svg"
+          src="/assets/icons/Icon 1.svg"
           className="-mt-28 ml-96"
           alt="Email Icon"
         />
@@ -18,10 +18,10 @@ const Navbar = () => {
           support@agrios.com
         </p>
         <div className="-mt-6 ml-175 flex gap-4">
-          <img src="src/assets/icons/socials/twitter.svg" alt="Twitter" />
-          <img src="src/assets/icons/socials/facebook.svg" alt="Facebook" />
-          <img src="src/assets/icons/socials/pinterest.svg" alt="Pinterest" />
-          <img src="src/assets/icons/socials/instagram.svg" alt="Instagram" />
+          <img src="/assets/icons/socials/twitter.svg" alt="Twitter" />
+          <img src="/assets/icons/socials/facebook.svg" alt="Facebook" />
+          <img src="/assets/icons/socials/pinterest.svg" alt="Pinterest" />
+          <img src="/assets/icons/socials/instagram.svg" alt="Instagram" />
         </div>
       </div>
 
@@ -30,7 +30,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex-grow-0 flex-shrink-0" style={{ width: "100px" }}>
           <img
-            src="src/assets/img/Link - logo → logo@2x.webp.jpg" // Исправленный путь
+            src="/assets/img/Link - logo → logo@2x.webp.jpg" // Исправленный путь
             alt="Logo"
             className="h-15 w-full -mt-4" // Логотип будет занимать всю ширину контейнера
           />
@@ -106,7 +106,7 @@ const Navbar = () => {
               <div className="relative">
                 <button className="p-2 hover:bg-gray-100 rounded-full">
                   <img
-                    src="src/assets/icons/Search.svg"
+                    src="/assets/icons/Search.svg"
                     alt="Search"
                     className="max-w-4xl h-6"
                   />
@@ -117,7 +117,7 @@ const Navbar = () => {
               <div className="relative">
                 <button className="p-2 hover:bg-gray-100 rounded-full">
                   <img
-                    src="src/assets/icons/Link (1).svg"
+                    src="/assets/icons/Link (1).svg"
                     alt="Cart"
                     className="max-w-4xl h-6"
                   />
