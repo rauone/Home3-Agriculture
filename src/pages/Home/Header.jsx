@@ -104,7 +104,7 @@ const Header = () => {
             <p className="text-yellow-500">SSSSS</p>
           </span>
         </p>
-        <img src="src/assets/imag/section 50.svg" className="w-70 -ml-120" />
+        <img src="src/assets/img/section 50.svg" className="w-70 -ml-120" />
         <p className="font-Manrope2 ml-180 -mt-24">
           Garlic <br />
           <span className="text-green-500">
