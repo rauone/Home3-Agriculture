@@ -2,150 +2,156 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#24231D] rounded-lg shadow-md w-full h-110 mt-58">
-      <div className="flex-col-reverse">
-        <img
-          src="src/assets/img/Link - logo → logo@2x.webp.jpg"
-          className="ml-20 pt-30"
-        />
-        <p className="pl-20 pt-10 text-gray-500">
-          There are many variations of passages <br /> of lorem ipsum available,
-          but the <br /> majority suffered.
-        </p>
-        <img
-          src="src/assets/icons/socials/twitter.svg"
-          className="ml-20 mt-4"
-        />
-        <img
-          src="src/assets/icons/socials/facebook.svg"
-          className="-mt-7 ml-30"
-        />
-        <img
-          src="src/assets/icons/socials/pinterest.svg"
-          className="-mt-7 ml-40"
-        />
-        <img
-          src="src/assets/icons/socials/instagram.svg"
-          className="-mt-7 ml-50"
-        />
-      </div>
-      <div className="flex-col -mt-50">
-        <h1 className="font-Manrope4 ml-130 text-white text-2xl">Explore</h1>
-        <div className="border-1 border-green-500 w-15 mt-2 ml-130"></div>
-        <div className="w-2 h-2 rounded-full bg-green-500 -mt-1.5 ml-150"></div>
-
-        {/* Кнопка About */}
-        <div className="flex items-center mt-10">
-          <img src="src/assets/icons/Icon (5).svg" className="ml-130 -mt-10" />
-          <a
-            href="#about"
-            className="text-gray-500 hover:text-green-500 text-[15px] ml-5 -mt-10"
-          >
-            About
-          </a>
-        </div>
-
-        {/* Кнопка 2 */}
-        <div className="flex items-center mt-10">
-          <img src="src/assets/icons/Icon (5).svg" className="ml-130 -mt-10" />
-          <a
-            href="#services"
-            className="text-gray-500 hover:text-green-500 text-[15px] ml-5 -mt-10"
-          >
-            Services
-          </a>
-        </div>
-
-        {/* Кнопка 3 */}
-        <div className="flex items-center mt-10">
-          <img src="src/assets/icons/Icon (5).svg" className="ml-130 -mt-10" />
-          <a
-            href="#projects"
-            className="text-gray-500 hover:text-green-500 text-[15px] ml-5 -mt-10"
-          >
-            Projects
-          </a>
-        </div>
-
-        {/* Кнопка 4 */}
-        <div className="flex items-center mt-10">
-          <img src="src/assets/icons/Icon (5).svg" className="ml-130 -mt-10" />
-          <a
-            href="#Meet the Farmers"
-            className="text-gray-500 hover:text-green-500 text-[15px] ml-5 -mt-10"
-          >
-            Meet the Farmers
-          </a>
-        </div>
-
-        {/* Кнопка 5 */}
-        <div className="flex items-center mt-10">
-          <img src="src/assets/icons/Icon (5).svg" className="ml-130 -mt-10" />
-          <a
-            href="#News"
-            className="text-gray-500 hover:text-green-500 text-[15px] ml-5 -mt-10"
-          >
-            News
-          </a>
-        </div>
-
-        {/* Кнопка 6 */}
-        <div className="flex items-center mt-10">
-          <img src="src/assets/icons/Icon (5).svg" className="ml-130 -mt-10" />
-          <a
-            href="#Contact"
-            className="text-gray-500 hover:text-green-500 text-[15px] ml-5 -mt-10"
-          >
-            Contact
-          </a>
-        </div>
-      </div>
-      <div>
-        <h1 className="flex-col font-Manrope4 -mt-72 ml-180 text-2xl text-white">
-          News
-        </h1>
-        <div className="border-1 border-green-500 w-15 mt-2 ml-180"></div>
-        <div className="w-2 h-2 rounded-full bg-green-500 -mt-1.5 ml-200"></div>
-        <p className="text-white ml-210 mt-6 font-Manrope4">
-          Bringing Food Production <br />
-          Back To Cities
-        </p>
-        <span className="ml-210 text-yellow-500">July 5, 2022</span>
-        <p className="ml-210 mt-4 text-white font-Manrope4">
-          The Future of Farming,
-          <br />
-          Smart Irrigation Solutions
-        </p>
-        <span className="ml-210 text-yellow-500">July 5, 2022</span>
-      </div>
-      <div>
-        <h1 className="flex-col font-Manrope4 -mt-57 ml-280 text-2xl text-white">
-          Contact
-        </h1>
-        <div className="border-1 border-green-500 w-15 mt-2 ml-280"></div>
-        <div className="w-2 h-2 rounded-full bg-green-500 -mt-1.5 ml-300"></div>
-        <img src="src/assets/icons/Icon (6).svg" className="ml-280 mt-5" />
-        <p className="text-gray-500 ml-288 -mt-6">666 888 0000</p>
-        <img src="src/assets/icons/Vector.svg" className="ml-280 mt-5" />
-        <p className="ml-290 -mt-5 text-gray-500 font-Manrope">
-          needhelp@company.com
-        </p>
-        <img src="src/assets/icons/Vector (1).svg" className="mt-5 ml-280" />
-        <p className="text-gray-500 ml-290 -mt-5 font-Manrope">
-          80 broklyn golden street line <br />
-          New York, USA
-        </p>
-      </div>
-      <div className="ml-280 -mt-40">
-        <div className="flex items-center">
-          <input
-            type="email"
-            placeholder="Your Email Address"
-            className="w-120 h-10 bg-white text-black border border-gray-500 rounded-lg pl-4 mt-42"
+    <div className="bg-[#24231D] rounded-lg shadow-md w-full h-auto sm:h-full mt-10 sm:mt-58 p-6 sm:p-10">
+      {/* Основной контейнер */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        {/* Логотип и описание */}
+        <div className="text-center sm:text-left">
+          <img
+            src="src/assets/img/Link - logo → logo@2x.webp.jpg"
+            className="w-40 mx-auto sm:mx-0"
+            alt="Logo"
           />
-          <button className="ml-2 bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 mt-42">
-            Subscribe
-          </button>
+          <p className="text-gray-500 mt-4">
+            There are many variations of passages of lorem ipsum available, but
+            the majority suffered.
+          </p>
+          <div className="flex justify-center sm:justify-start gap-4 mt-4">
+            <img src="src/assets/icons/socials/twitter.svg" alt="Twitter" />
+            <img src="src/assets/icons/socials/facebook.svg" alt="Facebook" />
+            <img src="src/assets/icons/socials/pinterest.svg" alt="Pinterest" />
+            <img src="src/assets/icons/socials/instagram.svg" alt="Instagram" />
+          </div>
+        </div>
+
+        {/* Секция "Explore" */}
+        <div className="text-center sm:text-left">
+          <h1 className="font-Manrope4 text-white text-2xl">Explore</h1>
+          <div className="border-1 border-green-500 w-15 mt-2 mx-auto sm:mx-0"></div>
+          <div className="w-2 h-2 rounded-full bg-green-500 -mt-1.5 mx-auto sm:mx-0"></div>
+
+          {/* Ссылки */}
+          <div className="mt-6 space-y-4">
+            {[
+              {
+                icon: "src/assets/icons/Icon (5).svg",
+                text: "About",
+                link: "#about",
+              },
+              {
+                icon: "src/assets/icons/Icon (5).svg",
+                text: "Services",
+                link: "#services",
+              },
+              {
+                icon: "src/assets/icons/Icon (5).svg",
+                text: "Projects",
+                link: "#projects",
+              },
+              {
+                icon: "src/assets/icons/Icon (5).svg",
+                text: "Meet the Farmers",
+                link: "#farmers",
+              },
+              {
+                icon: "src/assets/icons/Icon (5).svg",
+                text: "News",
+                link: "#news",
+              },
+              {
+                icon: "src/assets/icons/Icon (5).svg",
+                text: "Contact",
+                link: "#contact",
+              },
+            ].map((item, index) => (
+              <div key={index} className="flex items-center">
+                <img src={item.icon} className="w-4 h-4" alt={item.text} />
+                <a
+                  href={item.link}
+                  className="text-gray-500 hover:text-green-500 text-sm ml-2"
+                >
+                  {item.text}
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Секция "News" */}
+        <div className="text-center sm:text-left">
+          <h1 className="font-Manrope4 text-white text-2xl">News</h1>
+          <div className="border-1 border-green-500 w-15 mt-2 mx-auto sm:mx-0"></div>
+          <div className="w-2 h-2 rounded-full bg-green-500 -mt-1.5 mx-auto sm:mx-0"></div>
+
+          {/* Новости */}
+          <div className="mt-6 space-y-4">
+            <div>
+              <p className="text-white font-Manrope4">
+                Bringing Food Production <br />
+                Back To Cities
+              </p>
+              <span className="text-yellow-500 text-sm">July 5, 2022</span>
+            </div>
+            <div>
+              <p className="text-white font-Manrope4">
+                The Future of Farming, <br />
+                Smart Irrigation Solutions
+              </p>
+              <span className="text-yellow-500 text-sm">July 5, 2022</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Секция "Contact" */}
+        <div className="text-center sm:text-left">
+          <h1 className="font-Manrope4 text-white text-2xl">Contact</h1>
+          <div className="border-1 border-green-500 w-15 mt-2 mx-auto sm:mx-0"></div>
+          <div className="w-2 h-2 rounded-full bg-green-500 -mt-1.5 mx-auto sm:mx-0"></div>
+
+          {/* Контактная информация */}
+          <div className="mt-6 space-y-4">
+            <div className="flex items-center">
+              <img
+                src="src/assets/icons/Icon (6).svg"
+                className="w-4 h-4"
+                alt="Phone"
+              />
+              <p className="text-gray-500 ml-2">666 888 0000</p>
+            </div>
+            <div className="flex items-center">
+              <img
+                src="src/assets/icons/Vector.svg"
+                className="w-4 h-4"
+                alt="Email"
+              />
+              <p className="text-gray-500 ml-2">needhelp@company.com</p>
+            </div>
+            <div className="flex items-center">
+              <img
+                src="src/assets/icons/Vector (1).svg"
+                className="w-4 h-4"
+                alt="Address"
+              />
+              <p className="text-gray-500 ml-2">
+                80 broklyn golden street line <br />
+                New York, USA
+              </p>
+            </div>
+          </div>
+
+          {/* Подписка */}
+          <div className="mt-6">
+            <div className="flex items-center">
+              <input
+                type="email"
+                placeholder="Your Email Address"
+                className="w-full sm:w-40 h-10 bg-white text-black border border-gray-500 rounded-lg pl-4 md:absolute md:-mt-20"
+              />
+              <button className="ml-2 bg-green-500 text-white px-4 sm:px-6 py-2 sm:py-3 md:mt-10 rounded-lg hover:bg-green-600">
+                Subscribe
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
